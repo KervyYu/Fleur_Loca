@@ -1,0 +1,82 @@
+
+
+nav.navbar{
+    background-color: white;
+}
+
+.panel-footer{
+    background-color: white;
+}
+
+
+.dashboard{
+    color: #ff7e06;
+}
+
+#menu-toggle{
+    color:#eeaeca;
+}
+
+.dashboard-box{
+    background-color: #f6d0de;
+}
+
+.details span{
+    color: #85AD6E;
+    font-size: 18px;
+}
+
+
+.details a{
+    text-decoration: none;
+}
+
+.details i{
+    font-size: 20px;
+}
+
+
+.table-container {
+    max-height: 400px; /* Adjust the height as needed */
+    overflow-y: auto;
+}
+
+
+.activities{
+    margin-top: 50px;
+}
+
+
+.activities .activity_title{
+    color: #ff7e06;
+    font-family: 'Roboto Slab';
+}
+
+.table-container .table-header{
+    font-size: 20px;
+    font-family: 'Hanken Grotesk';
+}
+
+.table-container .table-header th{
+    color: #ff7e06;
+}
+
+
+.table-container tbody{
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.table-container tbody tr td{
+    color: #252525;
+}
+
+.dashboard-body h3{
+    color: #F4903A;
+    font-size: 35px;
+}
+
+.dashboard-body .board-title {
+    font-size: 30px;
+    color: #85AD6E;
+}

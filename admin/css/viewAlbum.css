@@ -1,0 +1,67 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+th {
+    background-color: #f8eaea;
+}
+
+table thead tr{
+    text-align: center;
+}
+
+table tbody img{
+    align-items: center;
+}
+
+
+.albumtable{
+    margin-top: 50px;
+}
+
+.card .card-header{
+    background-color: white;
+}
+
+.card-header h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card-header h2{
+    font-size: 40px;
+    font-family: "Roboto Slab";
+    color: #ff7e06;
+    text-transform: uppercase;
+}
+
+
+.table thead tr th{
+    color: #85AD6E;
+
+}
+
+.table tbody td{
+    font-family: 'Hanken Grotesk';
+}
+
+
+.form-group .btn{
+    background-color: #F4903A;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 8px 0;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.form-group .delete-btn{
+    transition: 0.5s ease;
+}

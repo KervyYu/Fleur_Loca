@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+
+
+#card-header{
+    color: #ff7e06;
+}
+
+.form-group button{
+    margin-top: 20px;
+}
+
+
+#background_image{
+    color: #85AD6E;
+}
+
+
+.form-group .btn{
+    display: inline-block;
+    background-color: #F4903A;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 140px;
+    cursor: pointer;
+}
+
+.label{
+    color: #85AD6E;
+}

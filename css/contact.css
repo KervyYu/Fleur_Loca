@@ -1,0 +1,388 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+#contactbanner{
+  background-image:linear-gradient(306deg, rgba(224, 167, 167, 0.466) 0%, rgba(94, 94, 94, 0.5) 48%,rgba(220, 220, 220, 0.445) 48%, rgba(231, 180, 180, 0.308) 100%), linear-gradient(268deg, rgba(232, 232, 232, 0.356) 0%, rgba(232, 232, 232, 0.377) 9%,rgba(135, 135, 135, 0.342) 9%, rgba(135, 135, 135, 0.363) 100%), url(../images/sampleimage.jpg);
+  width: 100%;
+  min-height: 90%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  background-attachment: fixed;
+  padding: 350px 0 200px;
+}
+
+.contact-content .container h1 {
+  text-shadow: 0px 10px 10px #666666;
+  letter-spacing: 4px;
+  font-size: 100px;
+  color: white;
+  font-family: 'Lobster', cursive;
+  margin: 0;
+}
+
+.contact-content .container p{
+  font-family: 'Poppins', sans-serif;
+  color: #736C6C;
+  font-weight: 500;
+  font-size: 16px;
+
+}
+
+
+@media only screen and (max-width: 991px) {
+  #contactbanner {
+    padding: 200px 0 150px;
+  }
+
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+  #contactbanner {
+      padding: 200px 0 100px;
+  }
+
+
+    
+   
+
+  .contact-content .container {
+    text-align: center;
+  }
+
+  .contact-content .container h1{
+      font-size: 60px;
+  }
+
+ 
+}
+
+
+@media only screen and (max-width: 430px) {
+  .contact-content .container h1{
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .contact-content .container h1{
+    font-size: 40px;
+  }
+}
+
+
+
+
+
+.contact-intro{
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.contact-intro h1{
+  font-size: 45px;
+  color: #85AD6E;
+  font-family: 'Lora', serif;
+}
+
+.contact-intro h4{
+  font-size: 25px;
+  color: #736C6C;
+  font-family: 'Lora', serif;
+}
+
+.contact-intro p{
+  padding-left: 200px;
+  padding-right: 200px;
+  color: #736C6C;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+@media screen and (max-width: 1199px) {
+
+  .contact-intro h1{
+      font-size: 38px;
+  }
+
+  .contact-intro h4{
+      font-size: 24px;
+  }
+  
+  .contact-intro p{
+      font-size: 14px;
+  }
+  
+  
+}
+
+
+@media screen and (max-width: 991px) {
+  .contact-intro h1{
+      font-size: 36px;
+  }
+
+  .contact-intro h4{
+      font-size: 23px;
+  }
+  
+  .contact-intro p{
+      padding-left: 100px;
+      padding-right: 100px;
+      font-size: 13px;
+  }
+  
+  
+}
+
+@media screen and (max-width: 767px) {
+  .contact-intro h1{
+      font-size: 35px;
+  }
+
+  .contact-intro h4{
+      font-size: 22px;
+  }
+
+  .contact-intro p{
+      padding-left: 70px;
+      padding-right: 70px;
+      font-size: 13px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 420px) {
+  .contact-intro h1{
+      font-size: 30px;
+  }
+  
+  .contact-intro p{
+      padding-left: 30px;
+      padding-right: 30px;
+      font-size: 11px;
+  }
+
+
+}
+
+
+
+#contents .custom-margin {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.contactinfo {
+  display: flex;
+  justify-content: center;
+}
+
+
+.feats span{
+  font-size: 40px;
+  color:#F4903A;
+  width: 70px;
+  height: 70px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.contact h4{
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+  color: #85AD6E;
+}
+
+.contact p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  
+  font-size: 15px;
+  color: #736C6C;
+}
+
+
+
+
+
+@media screen and (max-width: 1235px) {
+
+  .contact p{
+      font-size: 14px;
+  }
+  
+  .contact h4{
+      font-size: 24px;
+  }
+  
+}
+
+
+@media screen and (max-width: 915px) {
+  .feats span{
+      font-size: 37px;
+
+  }
+  .contact p{
+      text-align: left;
+      font-size: 13px;
+  }
+
+  .contact h4{
+      font-size: 23px;
+  }
+  
+  
+}
+
+@media screen and (max-width: 767px) {
+
+  #contents{
+      margin: 0 20px;
+  }
+
+  #contents .custom-margin{
+      margin-bottom: 10px;
+  }
+
+
+  .contactinfo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .feats span{
+      font-size: 40px;
+
+  }
+  .contact h4{
+      font-size: 25px;
+  }
+
+  .contact p{
+      padding: 0 30px;
+      text-align: center;
+  }
+
+}
+
+.contact-body{
+ max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.contact-body{
+  border-top: 1px solid rgba(0, 0, 0, 0.075)
+}
+
+
+.contactform{
+  max-width: 1000px;
+  position: relative;
+  margin: 50px auto;
+  box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.contact-body .title{
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 3em;
+  line-height: 48px;
+  padding-bottom: 20px;
+  color: #85AD6E;
+  background: linear-gradient(to right, #F4903A 0%, #eeaeca 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-form .form-field{
+  position:  relative;
+  margin: 32px 0;
+}
+
+.contact-form .input-text{
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #85AD6E;
+  font-size: 15px;
+  line-height: 26px;
+
+}
+
+#advertise{
+  color: #000000;
+}
+
+
+.contact-form .label span{
+  font-size: 13px;
+}
+
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label,
+.contact-form .input-text:valid + .label {
+  color: #85ad6e;
+  font-size: 15px;
+  transform: translateY(-24px);
+}
+
+
+.contact-form .input-text:focus,
+.contact-form .input-text.not-empty,
+.contact-form .input-text:valid {
+  outline: none;
+}
+
+
+
+.contact-form .label{
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #85AD6E;
+  cursor: text;
+  text-transform: capitalize;
+  transition: transform 0.2s ease-in-out;
+}
+
+.contact-form .submit_btn{
+  display: inline-block;
+  background-color: #F4903A;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+}
